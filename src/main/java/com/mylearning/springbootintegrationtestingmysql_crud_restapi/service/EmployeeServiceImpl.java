@@ -18,6 +18,7 @@ public class EmployeeServiceImpl implements EmployeeService {
 
     public EmployeeServiceImpl(EmployeeRepository employeeRepository) {
         this.employeeRepository = employeeRepository;
+        System.out.println("SpringBoot Application Service Layer Called");
     }
 
     @Override
